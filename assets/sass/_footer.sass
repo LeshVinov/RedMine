@@ -1,0 +1,53 @@
+.footer
+    background-color: #F8F8F8
+    padding: 100px 0
+    .txt.info
+        color: #787575
+        font-size: 1.6rem
+    .footer__logo
+        .logo
+            font-size: 3rem
+            font-weight: 600
+            margin: 0 0 15px 0
+            color: #535050
+    .footer__nav
+        ul
+            display: flex
+            flex-direction: column
+            li
+                a
+                    color: #787575
+                    font-size: 1.6rem
+                    &:hover
+                        transition: .3s
+                        color: #535050
+                        font-weight: 600
+            li:not(:last-child)
+                margin-bottom: 20px
+    .footer__contact
+        .title
+            color: #787575
+            font-weight: 500
+            margin-bottom: 30px
+        .txt.info
+            color: #787575
+        .txt.info:not(:last-child)
+            margin-bottom: 15px
+
+@media (max-width: 992px)
+    .footer
+        padding: 50px 0
+        .txt.info
+            font-size: 1.2rem
+        .footer__logo
+            .logo
+                font-size: 2rem
+        .footer__nav
+            margin: 50px 0
+            a
+                font-size: 2rem!important
+        .footer__contact 
+            .title
+                margin-bottom: 10px
+
+// @media (max-width: 992px)
